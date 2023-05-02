@@ -5,30 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <table>
-      <tr>
-        <td>
-          <img src="./images/ronbalid.jpg" alt="" />
-        </td>
-        <td>
-          <h1>Ron Alec Balid</h1>
-          <h2>I'm a Web Developer</h2>
-        </td>
-      </tr>
-    </table>
-    <hr />
-    <h2>Summary</h2>
-    <p>
-      I am a person who is aspiring to gain experience and more knowledge about
-      the world of web development and I know that in your company I will gain
-      relevant and useful experience that will help me achieve the goals in my
-      career.
-    </p>
+    <div class="hero">
+      <img src="./images/ronbalid.jpg" alt="" />
+      <h1>Ron Alec Balid</h1>
+      <h2>I'm a Web Developer</h2>
+    </div>
+    <div class="summary">
+      <h2>Summary</h2>
+      <p>
+        I am a person who is aspiring to gain experience and more knowledge about
+        the world of web development and I know that in your company I will gain
+        relevant and useful experience that will help me achieve the goals in my
+        career.
+      </p>
+    </div>
     <hr />
     <h2>Education</h2>
-    <table border="1px" cellpadding="1rem" style="text-align:center;">
+    <table border="1px" cellpadding="1rem" style="text-align: center">
       <thead>
         <tr>
           <th>School Year</th>

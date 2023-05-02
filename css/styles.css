@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f6f9;
+}
+
+.hero img {
+  border-radius: 50%;
+}
+
+.summary {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+.summary h2{
+  margin: 2rem 0;
+}
+
+.summary p{
+  width: 50%;
+}
