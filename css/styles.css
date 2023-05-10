@@ -33,6 +33,10 @@
   gap: 1rem;
 }
 
+.education table {
+  border-collapse: collapse;
+}
+
 .work-exp ul, .skills ul{
   display: grid;
   grid-template-columns: 1fr 1fr;
