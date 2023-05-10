@@ -4,30 +4,56 @@
   font-family: "Poppins", sans-serif;
 }
 
-.hero {
+.section{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.hero {
   background-color: #f1f6f9;
 }
 
 .hero img {
+  width: 15rem;
   border-radius: 50%;
-}
-
-.summary {
-  display: flex;
-  align-items: left;
-  justify-content: center;
-  flex-direction: column;
-  
-}
-
-.summary h2{
-  margin: 2rem 0;
 }
 
 .summary p{
   width: 50%;
+}
+
+.education{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.work-exp ul, .skills ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.work-exp ul li, .work-exp ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.work-exp ul li img, .skills ul li img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+  float: left;
+  margin-right: 1rem;
+}
+
+.skills ul li {
+  list-style: none;
 }
